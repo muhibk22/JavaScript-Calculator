@@ -17,7 +17,7 @@
 
 @media (max-width:486px){
     .frame{
-        width: 60vw !important;
+        width: 70vw !important;
     }
 }
 body{
@@ -100,6 +100,10 @@ body{
 }
 .button-container:hover{
     background-color: rgb(59, 58, 58);
+}
+
+.button-container:active, .button-container:focus{
+    background-color: rgb(38, 38, 38);
 }
 .row{
     display: flex;
