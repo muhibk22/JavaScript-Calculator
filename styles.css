@@ -19,6 +19,12 @@
     .frame{
         width: 70vw !important;
     }
+    .button-container:hover{
+        background-color: rgb(38, 38, 38) !important;
+    }
+    .button-container:active{
+        background-color:  rgb(59, 58, 58) !important;
+    }
 }
 body{
     background-color: #c6c6c6;
@@ -96,15 +102,12 @@ body{
 }
 
 .button-container.extra{
-    width: 40%;
+width: 40%;
 }
 .button-container:hover{
     background-color: rgb(59, 58, 58);
 }
 
-.button-container:active, .button-container:focus{
-    background-color: rgb(38, 38, 38);
-}
 .row{
     display: flex;
     justify-content: space-evenly;

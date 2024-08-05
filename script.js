@@ -31,3 +31,5 @@ function calculate(){
 resetButton.addEventListener('click',resetDisplay);
 deleteButton.addEventListener('click',del);
 equalButton.addEventListener('click',calculate);
+
+
