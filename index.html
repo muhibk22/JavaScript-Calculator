@@ -10,73 +10,76 @@
     <div class="frame">
         <div class="logo"><p>--muhibk22--</p></div>
         <div class="content">
-            <div class="result" id="result"></div>
-            <div class="dash"><p>|</p></div>
+            <div class="record" id="lastOperationScreen"></div>
+            <div class="current">
+                <div class="result" id="currentOperationScreen"></div>
+                <div class="dash"><p>|</p></div>
+            </div>
         </div>
         <div class="line"></div>
         <div class="buttons">
             <div class="row">
                 <div class="button-container">
-                    <button class="button" id="7">7</button>
+                    <button class="button" data-number>7</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="8">8</button>
+                    <button class="button" data-number>8</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="9">9</button>
+                    <button class="button" data-number>9</button>
                 </div>
                 <div class="button-container">
-                    <button class="button3" id="del">Del</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="button-container">
-                    <button class="button" id="4">4</button>
-                </div>
-                <div class="button-container">
-                    <button class="button" id="5">5</button>
-                </div>
-                <div class="button-container">
-                    <button class="button" id="6">6</button>
-                </div>
-                <div class="button-container">
-                    <button class="button" id="+">+</button>
+                    <button class="button3" id="deleteBtn">Del</button>
                 </div>
             </div>
             <div class="row">
                 <div class="button-container">
-                    <button class="button" id="1">1</button>
+                    <button class="button" data-number>4</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="2">2</button>
+                    <button class="button" data-number>5</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="3">3</button>
+                    <button class="button" data-number>6</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="-">-</button>
+                    <button class="button" data-operator>+</button>
                 </div>
             </div>
             <div class="row">
                 <div class="button-container">
-                    <button class="button" id=".">.</button>
+                    <button class="button" data-number>1</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="0">0</button>
+                    <button class="button" data-number>2</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="/">/</button>
+                    <button class="button" data-number>3</button>
                 </div>
                 <div class="button-container">
-                    <button class="button" id="x">x</button>
+                    <button class="button" data-operator>-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="button-container">
+                    <button class="button" id="pointBtn">.</button>
+                </div>
+                <div class="button-container">
+                    <button class="button" data-number>0</button>
+                </div>
+                <div class="button-container">
+                    <button class="button" data-operator>/</button>
+                </div>
+                <div class="button-container">
+                    <button class="button" data-operator>x</button>
                 </div>
             </div>
             <div class="row">
                 <div class="button-container extra">
-                    <button class="button2" id="reset">Reset</button>
+                    <button class="button2" id="clearBtn">Reset</button>
                 </div>
                 <div class="button-container extra">
-                    <button class="button2" id="=">=</button>
+                    <button class="button2" id="equalsBtn">=</button>
                 </div>
             </div>
         </div>
